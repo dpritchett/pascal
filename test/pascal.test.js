@@ -1,4 +1,5 @@
 const {assert} = require("chai");
+const pascal = require("../pascal").pascal;
 
 describe("pascal", function() {
   it("basic tests", function() {

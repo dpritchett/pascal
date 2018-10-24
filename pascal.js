@@ -17,3 +17,8 @@ function calculate(c, r) {
   else
     return calculate(c-1, r-1) + calculate(c, r-1);
 }
+
+module.exports = {
+	pascal: pascal,
+	calculate: calculate
+};
